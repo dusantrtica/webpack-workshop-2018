@@ -4,7 +4,7 @@
   "description": "Learning resources for the webpack academy workshop series for 2018",
   "main": "index.js",
   "scripts": {
-      "webpack-dev-server":"webpack-dev-server",
+    "webpack-dev-server": "webpack-dev-server",
     "webpack": "webpack",
     "debug": "node --inspect --inspect-brk ./node_modules/webpack/bin/webpack.js",
     "prod": "npm run webpack -- --env.mode production",
@@ -38,6 +38,7 @@
     "webpack": "^4.8.0",
     "webpack-bundle-analyzer": "^2.11.1",
     "webpack-cli": "^2.1.3",
+    "webpack-merge": "^4.1.3",
     "webpack-node-externals": "^1.7.2",
     "workbox-webpack-plugin": "^3.2.0"
   },
